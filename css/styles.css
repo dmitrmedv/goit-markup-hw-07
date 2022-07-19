@@ -583,6 +583,10 @@ a {
   margin-bottom: 9px;
 }
 
+.address-block {
+  margin-right: 70px;
+}
+
 .address-list .link {
   color: var(--text-color-secondary);
   font-style: normal;
@@ -594,7 +598,7 @@ a {
 
 .footer .container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
 }
 
@@ -632,6 +636,10 @@ a {
 .form {
   display: flex;
   margin-top: 20px;
+}
+
+.subscribe {
+  margin-left: auto;
 }
 
 .subscribe .icon {
