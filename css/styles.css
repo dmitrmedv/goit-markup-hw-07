@@ -649,6 +649,10 @@ body {
 }
 
 .checkbox__label {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--text-color-secondary);
   display: flex;
   margin-top: 20px;
   align-items: center;
