@@ -1,0 +1,29 @@
+.nav-list {
+  margin-left: 90px;
+  display: flex;
+
+  &__item {
+    margin-right: 50px;
+  }
+
+  &__link {
+    color: var(--text-color-primary);
+    position: relative;
+  }
+
+  &__link--active {
+    color: var(--text-color-accent);
+  }
+
+  &__link--active::after {
+    display: block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: var(--text-color-accent);
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+  }
+}
