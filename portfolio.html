@@ -18,7 +18,7 @@
   <header class="header">
     <div class="header__container container">
       <nav class="nav">
-        <a class="logo link" href="./index.html">Web<span class="logo__decoration">Studio</span></a>
+        <a class="logo link" href="./index.html"><span class="logo__decoration">Web</span>Studio</a>
         <ul class="nav-list list">
           <li class="nav-list__item"><a class="header__link nav-list__link link" href="./index.html">Студия</a></li>
           <li class="nav-list__item"><a class="header__link nav-list__link link nav-list__link--active"
@@ -27,7 +27,8 @@
         </ul>
       </nav>
       <ul class="contacts-list list">
-        <li class="contacts-list__item"><a class="header__link contacts-list__link link" href="mailto:info@devstudio.com">
+        <li class="contacts-list__item"><a class="header__link contacts-list__link link"
+            href="mailto:info@devstudio.com">
             <svg class="contacts-list__icon" aria-label="связаться с нами по email" width="16px" height="12px">
               <use href="./images/symbol-defs.svg#icon-envelope"></use>
             </svg>
@@ -43,21 +44,21 @@
   <main>
     <section class="section menu">
       <div class="container">
-        <h1 class="title">Портфолио</h1>
-        <ul class="menu-list">
-          <li class="item"><button type="button">Все</button></li>
-          <li class="item"><button type="button">Веб-сайты</button></li>
-          <li class="item"><button type="button">Приложения</button></li>
-          <li class="item"><button type="button">Дизайн</button></li>
-          <li class="item"><button type="button">Маркетинг</button></li>
+        <h1 class="menu__title title">Портфолио</h1>
+        <ul class="menu__list list">
+          <li class="menu__item"><button class="menu__btn" type="button">Все</button></li>
+          <li class="menu__item"><button class="menu__btn" type="button">Веб-сайты</button></li>
+          <li class="menu__item"><button class="menu__btn" type="button">Приложения</button></li>
+          <li class="menu__item"><button class="menu__btn" type="button">Дизайн</button></li>
+          <li class="menu__item"><button class="menu__btn" type="button">Маркетинг</button></li>
         </ul>
-        <ul class="portfolio-list">
-          <li class="item">
-            <a class="link" href="#">
-              <div class="cover">
-                <img src="./images/laptop.jpeg" alt="включенный ноутбук" width="370" height="294">
+        <ul class="portfolio__list list">
+          <li class="project">
+            <a class="project__link link" href="#">
+              <div class="project__cover">
+                <img class="project__img" src="./images/laptop.jpeg" alt="включенный ноутбук" width="370" height="294">
                 <div class="overlay">
-                  <p class="text">
+                  <p class="overlay__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                     Все это позволит
                     посетителю получить
@@ -66,36 +67,18 @@
                 </div>
               </div>
               <div class="description">
-                <h2 class="project-name">Технокряк</h2>
-                <p class="project-type">Веб-сайт</p>
+                <h2 class="project__name">Технокряк</h2>
+                <p class="project__type">Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="#">
-              <div class="cover"><img src="./images/two-players.jpeg" alt="два баскетболиста борящихся за мяч"
-                  width="370" height="294">
-                <div class="overlay">
-                  <p class="text">
-                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
-                    Все это позволит
-                    посетителю получить
-                    исчерпывающие сведения о компании или частном лице.
-                  </p>
-                </div>
-              </div>
-              <div class="description">
-                <h2 class="project-name">Постер New Orlean vs Golden Star</h2>
-                <p class="project-type">Дизайн</p>
-              </div>
-            </a>
-          </li>
-          <li class="item">
-            <a class="link" href="#">
-              <div class="cover"><img src="./images/logo-fish.jpeg" alt="логотип ресторана в виде рыбы" width="370"
+          <li class="project">
+            <a class="project__link link" href="#">
+              <div class="project__cover">
+                <img class="project__img img" src="./images/two-players.jpeg" alt="включенный ноутбук" width="370"
                   height="294">
                 <div class="overlay">
-                  <p class="text">
+                  <p class="overlay__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                     Все это позволит
                     посетителю получить
@@ -104,17 +87,18 @@
                 </div>
               </div>
               <div class="description">
-                <h2 class="project-name">Ресторан Seafood</h2>
-                <p class="project-type">Приложение</p>
+                <h2 class="project__name">Технокряк</h2>
+                <p class="project__type">Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="#">
-              <div class="cover"><img src="./images/headphones.jpeg" alt="черные полноразмерные наушники" width="370"
+          <li class="project">
+            <a class="project__link link" href="#">
+              <div class="project__cover">
+                <img class="project__img img" src="./images/logo-fish.jpeg" alt="включенный ноутбук" width="370"
                   height="294">
                 <div class="overlay">
-                  <p class="text">
+                  <p class="overlay__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                     Все это позволит
                     посетителю получить
@@ -123,17 +107,18 @@
                 </div>
               </div>
               <div class="description">
-                <h2 class="project-name">Проект Prime</h2>
-                <p class="project-type">Маркетинг</p>
+                <h2 class="project__name">Технокряк</h2>
+                <p class="project__type">Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="#">
-              <div class="cover"><img src="./images/two-boxes.jpeg" alt="белая и бежевая картонные коробки" width="370"
+          <li class="project">
+            <a class="project__link link" href="#">
+              <div class="project__cover">
+                <img class="project__img img" src="./images/headphones.jpeg" alt="включенный ноутбук" width="370"
                   height="294">
                 <div class="overlay">
-                  <p class="text">
+                  <p class="overlay__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                     Все это позволит
                     посетителю получить
@@ -142,71 +127,18 @@
                 </div>
               </div>
               <div class="description">
-                <h2 class="project-name">Проект Boxes</h2>
-                <p class="project-type">Приложение</p>
+                <h2 class="project__name">Технокряк</h2>
+                <p class="project__type">Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="#">
-              <div class="cover"><img src="./images/monitor.jpeg" alt="включенный монитор" width="370" height="294">
-                <div class="overlay">
-                  <p class="text">
-                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
-                    Все это позволит
-                    посетителю получить
-                    исчерпывающие сведения о компании или частном лице.
-                  </p>
-                </div>
-              </div>
-              <div class="description">
-                <h2 class="project-name">Inspiration has no Borders</h2>
-                <p class="project-type">Веб-сайт</p>
-              </div>
-            </a>
-          </li>
-          <li class="item">
-            <a class="link" href="#">
-              <div class="cover"><img src="./images/open_book.jpeg" alt="открытая книга" width="370" height="294">
-                <div class="overlay">
-                  <p class="text">
-                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
-                    Все это позволит
-                    посетителю получить
-                    исчерпывающие сведения о компании или частном лице.
-                  </p>
-                </div>
-              </div>
-              <div class="description">
-                <h2 class="project-name">Издание Limited Edition</h2>
-                <p class="project-type">Дизайн</p>
-              </div>
-            </a>
-          </li>
-          <li class="item">
-            <a class="link" href="#">
-              <div class="cover"><img src="./images/tag.jpeg" alt="белая бирка с веревочкой" width="370" height="294">
-                <div class="overlay">
-                  <p class="text">
-                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
-                    Все это позволит
-                    посетителю получить
-                    исчерпывающие сведения о компании или частном лице.
-                  </p>
-                </div>
-              </div>
-              <div class="description">
-                <h2 class="project-name">Проект LAB</h2>
-                <p class="project-type">Маркетинг</p>
-              </div>
-            </a>
-          </li>
-          <li class="item">
-            <a class="link" href="#">
-              <div class="cover"><img src="./images/work-on-laptop.jpeg" alt="ноутбук на котором работают" width="370"
+          <li class="project">
+            <a class="project__link link" href="#">
+              <div class="project__cover">
+                <img class="project__img img" src="./images/two-boxes.jpeg" alt="включенный ноутбук" width="370"
                   height="294">
                 <div class="overlay">
-                  <p class="text">
+                  <p class="overlay__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                     Все это позволит
                     посетителю получить
@@ -215,8 +147,87 @@
                 </div>
               </div>
               <div class="description">
-                <h2 class="project-name">Growing Business</h2>
-                <p class="project-type">Приложение</p>
+                <h2 class="project__name">Технокряк</h2>
+                <p class="project__type">Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li class="project">
+            <a class="project__link link" href="#">
+              <div class="project__cover">
+                <img class="project__img img" src="./images/monitor.jpeg" alt="включенный ноутбук" width="370"
+                  height="294">
+                <div class="overlay">
+                  <p class="overlay__text">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                    Все это позволит
+                    посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+              </div>
+              <div class="description">
+                <h2 class="project__name">Технокряк</h2>
+                <p class="project__type">Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li class="project">
+            <a class="project__link link" href="#">
+              <div class="project__cover">
+                <img class="project__img img" src="./images/open_book.jpeg" alt="включенный ноутбук" width="370"
+                  height="294">
+                <div class="overlay">
+                  <p class="overlay__text">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                    Все это позволит
+                    посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+              </div>
+              <div class="description">
+                <h2 class="project__name">Технокряк</h2>
+                <p class="project__type">Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li class="project">
+            <a class="project__link link" href="#">
+              <div class="project__cover">
+                <img class="project__img img" src="./images/tag.jpeg" alt="включенный ноутбук" width="370" height="294">
+                <div class="overlay">
+                  <p class="overlay__text">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                    Все это позволит
+                    посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+              </div>
+              <div class="description">
+                <h2 class="project__name">Технокряк</h2>
+                <p class="project__type">Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li class="project">
+            <a class="project__link link" href="#">
+              <div class="project__cover">
+                <img class="project__img img" src="./images/work-on-laptop.jpeg" alt="включенный ноутбук" width="370"
+                  height="294">
+                <div class="overlay">
+                  <p class="overlay__text">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                    Все это позволит
+                    посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+              </div>
+              <div class="description">
+                <h2 class="project__name">Технокряк</h2>
+                <p class="project__type">Веб-сайт</p>
               </div>
             </a>
           </li>
@@ -286,7 +297,7 @@
         </form>
       </div>
     </div>
-  
+
   </footer>
 </body>
 
