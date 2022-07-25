@@ -1,0 +1,17 @@
+.menu {
+  background-color: var(--header-background-color);
+
+  &__title {
+    display: none;
+  }
+
+  &__list {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 8px;
+  }
+}
