@@ -525,31 +525,31 @@ body {
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
-  color: var(placeholder-color);
+  color: var(--placeholder-color);
 }
 .modal__textarea::-moz-placeholder {
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
-  color: var(placeholder-color);
+  color: var(--placeholder-color);
 }
 .modal__textarea:-ms-input-placeholder {
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
-  color: var(placeholder-color);
+  color: var(--placeholder-color);
 }
 .modal__textarea::-ms-input-placeholder {
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
-  color: var(placeholder-color);
+  color: var(--placeholder-color);
 }
 .modal__textarea::placeholder {
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
-  color: var(placeholder-color);
+  color: var(--placeholder-color);
 }
 
 .nav-list {
