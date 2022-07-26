@@ -1,5 +1,5 @@
 .overlay {
-  background-color: rgba(33, 150, 243, 0.9);
+  background-color: var(--overlay-color);
   padding: 63px 24px;
   position: absolute;
   height: 100%;
@@ -13,7 +13,7 @@
   font-size: 18px;
   line-height: 1.5 5;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--basic-background-color);
 }
 
 .project__link:hover &,
